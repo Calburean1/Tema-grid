@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    align-items: flex-end;
+    background-color: ;
+    padding: 12px 20px;
+}
+
+
+.header .nav-container {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: flex-end;
+    background: ("C:\Users\kalbu\Desktop\tema grid\portocala.jpeg") no-repeat;
+    
+}
+
+.header .nav-item {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+
+}
+    
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+    
+
+}
+
+.flex-item {
+
+    display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            color: black;
+            
+}
+
+.card-container {
+
+    flex: 1 1 auto;
+            background: url("C:\Users\kalbu\Desktop\tema grid\portocala.jpeg") no-repeat;
+            background-size: cover;
+}
+
